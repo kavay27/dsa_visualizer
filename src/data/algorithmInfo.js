@@ -1,0 +1,38 @@
+export const sortingAlgorithms = {
+  bubble: {
+    label: "Bubble Sort",
+    description: "Repeatedly compares adjacent values and bubbles the largest unsorted value toward the end.",
+    time: "Best O(n), Average O(n²), Worst O(n²)",
+    space: "O(1)",
+    stability: "Stable",
+    best: "Already sorted input",
+    worst: "Reverse sorted input",
+  },
+  selection: {
+    label: "Selection Sort",
+    description: "Scans the unsorted range for the smallest value, then places it at the current boundary.",
+    time: "Best O(n²), Average O(n²), Worst O(n²)",
+    space: "O(1)",
+    stability: "Unstable",
+    best: "Any arrangement",
+    worst: "Any arrangement",
+  },
+  merge: {
+    label: "Merge Sort",
+    description: "Divides the array into halves and merges sorted subarrays back into a fully ordered array.",
+    time: "Best O(n log n), Average O(n log n), Worst O(n log n)",
+    space: "O(n)",
+    stability: "Stable",
+    best: "Balanced recursive splits",
+    worst: "Balanced recursive splits",
+  },
+  quick: {
+    label: "Quick Sort",
+    description: "Partitions values around a pivot, then recursively sorts values less and greater than that pivot.",
+    time: "Best O(n log n), Average O(n log n), Worst O(n²)",
+    space: "O(log n)",
+    stability: "Unstable",
+    best: "Balanced partitions",
+    worst: "Repeated poor pivots",
+  },
+};
