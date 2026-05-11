@@ -138,7 +138,3 @@ The playback hook consumes those steps and updates the visual state over time. T
 ## Author
 
 Created by [@kavay27](https://github.com/kavay27)
-
-## License
-
-This project is licensed under the terms included in the repository license file.
